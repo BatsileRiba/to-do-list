@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Batsile's To do list</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+       
+        <div class="input-container">
+        <pre>
+/)/)
+( . .)
+( づ♡
+        </pre>
         <h1>To do list :)</h1>
-        <label>Enter Task</label>
+        <label class="label">Enter Task</label>
+        <br>
         <input type="text" id="input">
-        <button type="submit">Submit</button>
-        <ul id="list"></ul>
+        <br>
+        <button type="submit" class="submit-btn" id="submit">Submit</button>
+        </div>
+        <ul id="list" class="to-do"><p class="heading"></p><p id="text">Add a task, get stuff done.</p></ul>
 
     </div>
-    <script src="main.js"></script>
+    <script src="main.js" ></script>
 </body>
 </html>

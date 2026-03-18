@@ -102,6 +102,10 @@ li button {
         margin-top: 50px;
     }
     .input-container {
+        width: 95vw;
         margin-bottom: 10px;
+    }
+    .to-do {
+        width: 95vw;
     }
 }
